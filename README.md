@@ -1,2 +1,2 @@
-# studio
+# Kowalenko Studio
 Kowalenko Studio
