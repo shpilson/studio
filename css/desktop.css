@@ -1,0 +1,264 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: local("Source Sans Pro"), url('/fonts/SourceSansPro-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Source Sans Pro"), url('/fonts/SourceSansPro-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Source Sans Pro"), url('/fonts/SourceSansPro-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local("Source Sans Pro"), url('/fonts/SourceSansPro-Black.ttf') format('ttf');
+}
+
+/* Styles */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.header {}
+
+.container-top {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.header__top {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    justify-content: center;
+    background-color: #324D5B;
+    position: fixed;
+}
+
+.header__logo {
+    margin-right: 111px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__menu-list-item {
+    padding-right: 40px;
+}
+
+.header__menu-link {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303030;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__menu-link:hover {
+    color: #324D5B;
+}
+
+.header__languages {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header__languages-list {
+    display: flex;
+}
+
+.header__languages-list-item {}
+
+.header__languages-link {
+    padding: 0 10px;
+}
+
+.header__content {
+    margin: 190px auto;
+}
+
+.header__content-title {}
+
+.header__content-undertitle {}
+
+.header__content-img {}
+
+.header__form {}
+
+.header__form-title {}
+
+.header__form-title--red {}
+
+.header__form-title--fz27 {}
+
+.header__form-input {}
+
+.header__form-input-text {}
+
+.header__form-checkbox {}
+
+.header__form-link {}
+
+.header__form-btn {}
+
+.button {}
+
+.about {}
+
+.about__pluses {}
+
+.about__plus {}
+
+.about__plus-img {}
+
+.about__plus-text {}
+
+.about__macbook {}
+
+.about__macbook-img {}
+
+.about__introduce {}
+
+.about__introduce-title {}
+
+.title {}
+
+.about__introduce-text {}
+
+.text {}
+
+.introduce__text {}
+
+.prices {}
+
+.prices__description {}
+
+.prices__description-title {}
+
+.prices__description-text {}
+
+.prices__plans {}
+
+.prices__card {}
+
+.prices__card-img {}
+
+.prices__card-plans {}
+
+.card-plans--blue {}
+
+.plans__card-text {}
+
+.text--blue {}
+
+.prices__card-price {}
+
+.prices__card-desc {}
+
+.prices__card-btn {}
+
+.card-plans--red {}
+
+.text--white {}
+
+.prices__stages {}
+
+.prices__stage {}
+
+.prices__stage-number {}
+
+.prices__stage-text {}
+
+.projects {}
+
+.projects__title {}
+
+.projects__box {}
+
+.projects__box-img {}
+
+.projects__review-box {}
+
+.projects__review-text {}
+
+.projects__review-user {}
+
+.projects__review-user-img {}
+
+.projects__review-user-info {}
+
+.projects__review-user-name {}
+
+.projects__review-user-job {}
+
+.projects__review-user-www {}
+
+.projects__review-btn {}
+
+.footer {}
+
+.footer__gift {}
+
+.footer__gift-title {}
+
+.text--fz40 {}
+
+.footer__gift-text {}
+
+.footer__gift-btn {}
+
+.footer__contacts {}
+
+.footer__contacts-undertitle {}
+
+.undertitle {}
+
+.footer__contacts-text {}
+
+.contacts__text--bold {}
+
+.footer__copyrights {}
+
+.footer__copyright-studio {}
+
+.footer__privacy {}
