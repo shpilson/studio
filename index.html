@@ -11,87 +11,90 @@
 </head>
 
 <body>
+    <div class="container-top">
+        <!-- Nav-menu + languages -->
+        <div class="header__top">
+
+            <div class="header__logo">
+                <img src="/img/logo.svg" alt="Logotype">
+            </div>
+
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-list-item">
+                        <a class="header__menu-link" href="#process">Как мы работаем</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class="header__menu-link" href="#prices">Стоимость</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class="header__menu-link" href="#portfolio">Портфолио</a>
+                    </li>
+                    <li class="header__menu-list-item">
+                        <a class="header__menu-link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__languages">
+                <ul class="header__languages-list">
+
+                    <li class="header__languages-list-item">
+                        <label>
+                            <input class="header__languages-link" type="image" src="/img/russian.svg" alt="russian">
+                        </label>
+                    </li>
+
+                    <li class="header__languages-list-item">
+                        <input class="header__languages-link" type="image" src="/img/english.svg" alt="english">
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
     <div class="wrapper">
         <!-- SCREEN #1 -->
         <header class="header">
 
-            <div class="container-top">
-                <!-- Nav-menu + languages -->
-                <div class="header__top">
-
-                    <div class="header__logo">
-                        <img src="/img/logo.svg" alt="Logotype">
-                    </div>
-
-                    <nav class="header__menu">
-                        <ul class="header__menu-list">
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#process">Как мы работаем</a>
-                            </li>
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#prices">Стоимость</a>
-                            </li>
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#portfolio">Портфолио</a>
-                            </li>
-                            <li class="header__menu-list-item">
-                                <a class="header__menu-link" href="#contacts">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <div class="header__languages">
-                        <ul class="header__languages-list">
-
-                            <li class="header__languages-list-item">
-                                <label>
-                                    <input class="header__languages-link" type="image" src="/img/russian.svg"
-                                        alt="russian">
-                                </label>
-                            </li>
-
-                            <li class="header__languages-list-item">
-                                <input class="header__languages-link" type="image" src="/img/english.svg" alt="english">
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
             <div class="container">
-                <!-- Title & banner -->
-                <div class="header__content">
-                    <h1 class="header__content-title">Дизайн, вёрстка и фронтенд разработка</h1>
-                    <h3 class="header__content-undertitle">Только чистый ручной код, согласно Вашему дизайну</h3>
-                    <img class="header__content-img" src="/img/banner.svg" alt="frontend crew banner">
-                </div>
-
-                <!-- Contact form -->
-                <div class="header__form">
-                    <h3 class="header__form-title">Узнайте стоимость
-                        <span class="header__form-title--red">за
-                            <span class="header__form-title--fz27">20</span> минут</span>
-                    </h3>
-
-                    <div class="header__form-input">
-                        <p class="header__form-input-text">Ваш Telegram или e-mail:</p>
-                        <input type="text" name="client-contact" id="client-contact" />
+                <div class="header__box">
+                    <!-- Title & banner -->
+                    <div class="header__content">
+                        <h1 class="header__content-title">Дизайн, вёрстка и фронтенд разработка</h1>
+                        <h3 class="header__content-undertitle">Только чистый ручной код, согласно Вашему дизайну</h3>
+                        <img class="header__content-img" src="/img/banner.svg" alt="frontend crew banner">
                     </div>
 
-                    <div class="header__form-input">
-                        <p class="header__form-input-text">Ссылка на макеты, ваши комментарии, ТЗ или вопросы:</p>
-                        <input type="text" name="client-com" id="client-com" />
+                    <!-- Contact form -->
+                    <div class="header__form">
+                        <h3 class="header__form-title">Узнайте стоимость
+                            <span class="header__form-title--red">за
+                                <span class="header__form-title--bold">20</span> минут</span>
+                        </h3>
+
+                        <div class="header__form-input">
+                            <p class="header__form-input-text">Ваш Telegram или e-mail:</p>
+                            <input class="header__input-form" type="text" name="client-contact" id="client-contact" />
+                        </div>
+
+                        <div class="header__form-input">
+                            <p class="header__form-input-text">Ваши
+                                комментарии, ТЗ или вопросы:</p>
+                            <input class="header__input-form--big header__input-form" type="text" name="client-com"
+                                id="client-com" />
+                        </div>
+
+                        <label class="test">
+                            <input class="header__form-checkbox-input" type="checkbox" name="happy" value="yes">
+                            <span class="header__form-checkbox">Я согласен(-на) на обработку данных в соответствии с
+                                <a href="#" class="header__form-checkbox header__form-link">Политикой
+                                    конфиденциальности</a>
+                            </span>
+                        </label>
+
+                        <input class="header__form-btn button" type="button" value="Пообщаться с исполнителем">
                     </div>
-
-                    <label>
-                        <input type="checkbox" name="happy" value="yes">
-                        <span class="header__form-checkbox">Я согласен(-на) на обработку данных в соответствии с
-                            <a href="#" class="header__form-link">Политикой конфиденциальности</a>
-                        </span>
-                    </label>
-
-                    <input class="header__form-btn button" type="button" value="Пообщаться с исполнителем">
                 </div>
             </div>
         </header>
