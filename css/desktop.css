@@ -265,7 +265,10 @@
 
 }
 
-.about {}
+.about {
+    height: 900px;
+    background: #F6FAFF;
+}
 
 .about__pluses {}
 
@@ -274,6 +277,8 @@
 .about__plus-img {}
 
 .about__plus-text {}
+
+.about__content {}
 
 .about__macbook {}
 
