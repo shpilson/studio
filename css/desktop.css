@@ -265,6 +265,19 @@
     cursor: pointer;
 }
 
+.button:hover {
+    transition: 0.7s;
+    box-shadow: 0px 0px 10px #40B7FF;
+}
+
+.button:not(:hover) {
+    transition: 0.7s;
+}
+
+.button:active {
+    background: #007fce;
+}
+
 .about {
     background: #F6FAFF;
     padding-top: 136px;
