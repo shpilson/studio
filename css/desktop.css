@@ -270,11 +270,25 @@
     background: #F6FAFF;
 }
 
-.about__pluses {}
+.about__pluses {
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-evenly;
 
-.about__plus {}
+}
 
-.about__plus-img {}
+.about__plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__plus-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
 .about__plus-text {}
 
