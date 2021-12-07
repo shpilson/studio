@@ -521,35 +521,96 @@
     margin-top: 17px;
 }
 
-.projects {}
+.projects {
+    background: #F6FAFF;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
 
-.projects__title {}
+.projects__section {
+    display: flex;
+    flex-direction: column;
+}
 
-.projects__box {}
+.projects__title {
+    text-align: center;
+}
+
+.projects__box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .projects__box-img {}
 
-.projects__review-box {}
+.projects__review-box {
+    width: 710px;
+    padding: 50px 122px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
 
 .projects__review-text {}
 
-.projects__review-user {}
+.projects__review-user {
+    display: flex;
+    margin-top: 30px;
+}
 
 .projects__review-user-img {}
 
 .projects__review-user-info {}
 
-.projects__review-user-name {}
+.projects__review-user-name {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303030;
+}
 
-.projects__review-user-job {}
+.projects__review-user-job {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #303030;
+}
 
-.projects__review-user-www {}
+.projects__review-user-www {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #324D5B;
+}
 
-.projects__review-btn {}
+.projects__review-btn {
+    margin: 60px auto 0;
+    cursor: pointer;
+}
 
-.footer {}
+.footer {
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
 
-.footer__gift {}
+.footer__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
 
 .footer__gift-title {}
 
