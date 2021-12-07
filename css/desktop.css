@@ -34,6 +34,10 @@
 
 /* Styles */
 
+.html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -44,6 +48,7 @@
 
 .header {
     display: flex;
+    scroll-behavior: smooth;
 }
 
 .container-top {
@@ -72,6 +77,7 @@
     padding-left: 30px;
     background-color: #ffffff;
     position: fixed;
+    box-shadow: 0px 0px 10px #ebebeb;
 }
 
 .header__logo {
@@ -455,6 +461,10 @@
 
     color: #324D5B;
     margin: 25px auto;
+}
+
+.prices__card-btn:hover {
+    box-shadow: 0px 0px 20px #dce5f1;
 }
 
 .card-plans--red {

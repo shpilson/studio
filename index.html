@@ -8,6 +8,7 @@
     <title>Kowalenko Studio</title>
 
     <link rel="stylesheet" media="all" href="/css/style.css">
+    <script src="//code-ya.jivosite.com/widget/D4gkSUHoK8" async></script>
 </head>
 
 <body>
@@ -55,7 +56,7 @@
     </div>
     <div class="wrapper">
         <!-- SCREEN #1 -->
-        <header class="header">
+        <header class="header" id="header">
 
             <div class="container">
                 <div class="header__box">
@@ -168,7 +169,8 @@
                             <p class="prices__card-price">₽5 000 – ₽15 000</p>
                             <p class="prices__card-desc">В зависимости от сложности</p>
                             <p class="prices__card-desc">Приступаем к работе в течение 1-3 дней</p>
-                            <input class="prices__card-btn" type="button" value="Заказать вёрстку">
+                            <a href="#header"><input class="prices__card-btn" type="button"
+                                    value="Заказать разработку"></a>
                         </div>
 
                         <div class="prices__card">
@@ -176,10 +178,12 @@
                             <div class="prices__card-plans card-plans--red">
                                 <p class="plans__card-text text--white">Срочный заказ</p>
                             </div>
-                            <p class="prices__card-price">от ₽20 000</p>
-                            <p class="prices__card-desc">Разработка в день обращения</p>
+                            <p class="prices__card-price">x2</p>
+                            <p class="prices__card-desc">Приступаем в день обращения</p>
                             <p class="prices__card-desc">Ваш заказ выполняется в приоритете</p>
-                            <input class="prices__card-btn" type="button" value="Заказать вёрстку">
+                            <a href="#header">
+                                <input class="prices__card-btn" type="button" value="Заказать разработку">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -241,7 +245,9 @@
                         </div>
                     </div>
                 </div>
-                <input class="projects__review-btn button" type="button" value="Заказать проект">
+                <a class="projects__review-btn" href="#header">
+                    <input class="projects__review-btn button" type="button" value="Заказать проект">
+                </a>
             </div>
         </section>
 
@@ -257,7 +263,9 @@
                     </h3>
 
                     <p class="footer__gift-text">Отправьте заявку, не закрывая наш сайт и подарок Ваш!</p>
-                    <input class="footer__gift-btn button" type="button" value="Получить подарок">
+                    <a class="footer__gift-btn" href="#header">
+                        <input class="footer__gift-btn button" type="button" value="Получить подарок">
+                    </a>
                 </div>
 
                 <!-- Contacts -->
