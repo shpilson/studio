@@ -422,7 +422,9 @@
 
 .plans__card-text {}
 
-.text--blue {}
+.text--blue {
+    s
+}
 
 .prices__card-price {
     font-family: "Source Sans Pro", sans-serif;
