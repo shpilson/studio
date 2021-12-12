@@ -47,11 +47,10 @@
 
     .header {}
 
-    .container {}
-
     .header__box {
         display: block;
         margin: 170px auto;
+        margin-bottom: 70px;
     }
 
     .header__content {}
@@ -130,9 +129,15 @@
 
     .about__pluses {
         flex-direction: column;
+        margin-bottom: 90px;
     }
 
-    .about__plus {}
+    .about__plus {
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     .about__plus-img {}
 
