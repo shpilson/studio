@@ -9,13 +9,18 @@
     .container-top {}
 
     .header__top {
-        display: grid;
+        display: flex;
+        padding-left: unset;
+        padding-top: 15px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .header__logo {
         padding-left: unset;
         width: 280px;
-        height: 45px;
+        height: 50px;
+        margin-bottom: 30px;
     }
 
     .header__menu {
@@ -28,7 +33,9 @@
 
     .header__menu-link {}
 
-    .header__languages {}
+    .header__languages {
+        padding-right: unset;
+    }
 
     .header__languages-list {}
 
@@ -42,13 +49,27 @@
 
     .container {}
 
-    .header__box {}
+    .header__box {
+        margin: 170px auto;
+    }
 
     .header__content {}
 
-    .header__content-title {}
+    .header__content-title {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        color: #303030;
+        width: 300px;
+    }
 
-    .header__content-undertitle {}
+    .header__content-undertitle {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 18px;
+        line-height: 23px;
+        color: #303030;
+    }
 
     .header__content-img {}
 
