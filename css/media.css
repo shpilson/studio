@@ -1,0 +1,225 @@
+/* Mobile */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        max-width: 320px;
+        padding: 0 20px;
+    }
+
+    .container-top {}
+
+    .header__top {
+        display: grid;
+    }
+
+    .header__logo {
+        padding-left: unset;
+        width: 280px;
+        height: 45px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu-list {}
+
+    .header__menu-list-item {}
+
+    .header__menu-link {}
+
+    .header__languages {}
+
+    .header__languages-list {}
+
+    .header__languages-list-item {}
+
+    .header__languages-link {}
+
+    .wrapper {}
+
+    .header {}
+
+    .container {}
+
+    .header__box {}
+
+    .header__content {}
+
+    .header__content-title {}
+
+    .header__content-undertitle {}
+
+    .header__content-img {}
+
+    .header__form {}
+
+    .header__form-title {}
+
+    .header__form-title--red {}
+
+    .header__form-title--bold {}
+
+    .header__form-input {}
+
+    .header__form-input-text {}
+
+    .header__input-form {}
+
+    .header__input-form--big {}
+
+    .test {}
+
+    .header__form-checkbox-input {}
+
+    .header__form-checkbox {}
+
+    .header__form-link {}
+
+    .header__form-btn {}
+
+    .button {}
+
+    .about {}
+
+    .about__pluses {}
+
+    .about__plus {}
+
+    .about__plus-img {}
+
+    .about__plus-text {}
+
+    .about__content {}
+
+    .about__macbook {}
+
+    .about__macbook-img {}
+
+    .about__introduce {}
+
+    .about__introduce-title {}
+
+    .title {}
+
+    .about__introduce-text {}
+
+    .text {}
+
+    .prices {}
+
+    .prices__box {}
+
+    .prices__description {}
+
+    .prices__description-title {}
+
+    .prices__description-text {}
+
+    .prices__plans {}
+
+    .prices__card {}
+
+    .prices__card-img {}
+
+    .prices__card-plans {}
+
+    .card-plans--blue {}
+
+    .plans__card-text {}
+
+    .prices__card-price {}
+
+    .prices__card-desc {}
+
+    .prices__card-btn {}
+
+    .card-plans--red {}
+
+    .text--white {}
+
+    .prices__stages {}
+
+    .prices__stage {}
+
+    .prices__stage-number--1 {}
+
+    .prices__stage-number {}
+
+    .prices__stage-text {}
+
+    .prices__stage-number--2 {}
+
+    .prices__stage-number--3 {}
+
+    .prices__stage-number--4 {}
+
+    .prices__stage-number--5 {}
+
+    .projects {}
+
+    .projects__section {}
+
+    .projects__title {}
+
+    .projects__box {}
+
+    .projects__box-img {}
+
+    .projects__review-box {}
+
+    .projects__review-text {}
+
+    .projects__review-user {}
+
+    .projects__review-user-img {}
+
+    .projects__review-user-info {}
+
+    .projects__review-user-name {}
+
+    .projects__review-user-job {}
+
+    .projects__review-user-www {}
+
+    .projects__review-btn {}
+
+    .footer {}
+
+    .footer__section {}
+
+    .footer__gift {}
+
+    .footer__gift-title {}
+
+    .text--fz40 {}
+
+    .footer__gift-text {}
+
+    .footer__gift-btn {}
+
+    .footer__contacts {}
+
+    .footer__contacts-undertitle {}
+
+    .undertitle {}
+
+    .footer__contacts-text {}
+
+    .contacts__text--bold {}
+
+    .footer__copyrights {}
+
+    .footer__copyright-studio {}
+
+    .footer__privacy {}
+
+}
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+/* Laptops + */
+
+@media (min-width: 1024px) and (max-width: 1439px) {}
