@@ -50,6 +50,7 @@
     .container {}
 
     .header__box {
+        display: block;
         margin: 170px auto;
     }
 
@@ -71,7 +72,9 @@
         color: #303030;
     }
 
-    .header__content-img {}
+    .header__content-img {
+        margin-top: 50px;
+    }
 
     .header__form {}
 
@@ -101,9 +104,14 @@
 
     .button {}
 
-    .about {}
+    .about {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 
-    .about__pluses {}
+    .about__pluses {
+        flex-direction: column;
+    }
 
     .about__plus {}
 
