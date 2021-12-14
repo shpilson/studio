@@ -142,17 +142,34 @@
 
     .about__plus-text {}
 
-    .about__content {}
+    .about__content {
+        flex-direction: column;
+    }
 
     .about__macbook {}
 
-    .about__macbook-img {}
+    .about__macbook-img {
+        background-image: url("/img/iPhone.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 415px;
+        width: 219px;
+        margin: 0 auto;
+    }
 
     .about__introduce {}
 
     .about__introduce-title {}
 
-    .title {}
+    .title {
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        color: #324D5B;
+    }
 
     .about__introduce-text {}
 
@@ -162,13 +179,25 @@
 
     .prices__box {}
 
-    .prices__description {}
+    .prices__description {
+        padding: 50px 20px;
+        width: 100%;
+        height: 100%;
+    }
 
-    .prices__description-title {}
+    .prices__description-title {
+        font-size: 27px;
+        ss
+    }
 
-    .prices__description-text {}
+    .prices__description-text {
+        margin-bottom: 20px;
+        width: 100%;
+    }
 
-    .prices__plans {}
+    .prices__plans {
+        padding-left: 0;
+    }
 
     .prices__card {}
 

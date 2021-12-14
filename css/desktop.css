@@ -328,8 +328,12 @@
 }
 
 .about__macbook-img {
+    background-image: url("/img/MacBook.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     width: 100%;
-    height: 100%;
+    height: 483px;
 }
 
 .about__introduce {
