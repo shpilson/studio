@@ -118,7 +118,7 @@
 
     .button {
         width: 236px;
-        height: 42px;
+        height: 50px;
     }
 
     .about {
@@ -291,19 +291,34 @@
         display: none;
     }
 
-    .footer {}
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 
     .footer__section {}
 
     .footer__gift {}
 
-    .footer__gift-title {}
+    .footer__gift-title {
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #324D5B;
+        width: 80%;
+    }
 
-    .text--fz40 {}
+    .text--fz40 {
+        font-size: 24px;
+    }
 
     .footer__gift-text {}
 
-    .footer__gift-btn {}
+    .footer__gift-btn {
+        margin-bottom: 70px;
+    }
 
     .footer__contacts {}
 
@@ -311,13 +326,19 @@
 
     .undertitle {}
 
-    .footer__contacts-text {}
+    .footer__contacts-text {
+        margin-bottom: 10px;
+    }
 
     .contacts__text--bold {}
 
-    .footer__copyrights {}
+    .footer__copyrights {
+        flex-direction: column;
+    }
 
-    .footer__copyright-studio {}
+    .footer__copyright-studio {
+        margin-bottom: 20px;
+    }
 
     .footer__privacy {}
 
