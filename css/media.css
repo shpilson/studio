@@ -175,7 +175,10 @@
 
     .text {}
 
-    .prices {}
+    .prices {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 
     .prices__box {
         flex-direction: column;
@@ -199,10 +202,12 @@
     .prices__plans {
         padding-left: 0;
         flex-direction: column;
+        align-items: center;
     }
 
     .prices__card {
         margin-left: unset;
+        margin: 40px auto;
     }
 
     .prices__card-img {}
@@ -223,7 +228,10 @@
 
     .text--white {}
 
-    .prices__stages {}
+    .prices__stages {
+        flex-direction: column;
+        margin-top: 70px;
+    }
 
     .prices__stage {}
 
@@ -231,7 +239,9 @@
 
     .prices__stage-number {}
 
-    .prices__stage-text {}
+    .prices__stage-text {
+        margin-bottom: 30px;
+    }
 
     .prices__stage-number--2 {}
 
@@ -241,17 +251,27 @@
 
     .prices__stage-number--5 {}
 
-    .projects {}
+    .projects {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 
     .projects__section {}
 
     .projects__title {}
 
-    .projects__box {}
+    .projects__box {
+        flex-direction: column;
+    }
 
-    .projects__box-img {}
+    .projects__box-img {
+        margin: 50px auto;
+    }
 
-    .projects__review-box {}
+    .projects__review-box {
+        width: 100%;
+        padding: 30px 10px;
+    }
 
     .projects__review-text {}
 
@@ -267,7 +287,9 @@
 
     .projects__review-user-www {}
 
-    .projects__review-btn {}
+    .projects__review-btn {
+        display: none;
+    }
 
     .footer {}
 
