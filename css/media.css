@@ -177,7 +177,9 @@
 
     .prices {}
 
-    .prices__box {}
+    .prices__box {
+        flex-direction: column;
+    }
 
     .prices__description {
         padding: 50px 20px;
@@ -196,9 +198,12 @@
 
     .prices__plans {
         padding-left: 0;
+        flex-direction: column;
     }
 
-    .prices__card {}
+    .prices__card {
+        margin-left: unset;
+    }
 
     .prices__card-img {}
 
