@@ -1,7 +1,7 @@
 /* Fonts */
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-display: swap;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-display: swap;
@@ -36,6 +36,10 @@
 
 .html {
     scroll-behavior: smooth;
+}
+
+.body {
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .wrapper {
@@ -468,6 +472,7 @@
 
     color: #324D5B;
     margin: 25px auto;
+    cursor: pointer;
 }
 
 .prices__card-btn:hover {
