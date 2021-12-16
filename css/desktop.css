@@ -78,6 +78,12 @@
     background-color: #ffffff;
     position: fixed;
     box-shadow: 0px 0px 10px #ebebeb;
+
+    transition: all .3s ease;
+}
+
+.header__top.out {
+    transform: translateY(-100%);
 }
 
 .header__logo {

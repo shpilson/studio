@@ -25,19 +25,19 @@
         <div class="header__top">
 
             <div class="header__logo">
-                <img src="/img/logo.svg" alt="Logotype">
+                <a class="header__logo" href="#top"><img src="/img/logo.svg" alt="Logotype"></a>
             </div>
 
             <nav class="header__menu">
                 <ul class="header__menu-list">
                     <li class="header__menu-list-item">
-                        <a class="header__menu-link" href="/process">Как мы работаем</a>
+                        <a class="header__menu-link" href="/process" target="_blank">Как мы работаем</a>
                     </li>
                     <li class="header__menu-list-item">
                         <a class="header__menu-link" href="#prices">Стоимость</a>
                     </li>
                     <li class="header__menu-list-item">
-                        <a class="header__menu-link" href="/portfolio">Портфолио</a>
+                        <a class="header__menu-link" href="/portfolio" target="_blank">Портфолио</a>
                     </li>
                     <li class="header__menu-list-item">
                         <a class="header__menu-link" href="#contacts">Контакты</a>
@@ -64,7 +64,7 @@
     </div>
     <div class="wrapper">
         <!-- SCREEN #1 -->
-        <header class="header" id="header">
+        <header class="header" id="header" id="top">
 
             <div class="container">
                 <div class="header__box">
@@ -259,7 +259,7 @@
         </section>
 
         <!-- SCREEN #5 -->
-        <footer class="footer">
+        <footer class="footer" id="contacts">
             <div class="container footer__section">
 
                 <!-- Gift for new clients -->
@@ -276,7 +276,7 @@
                 </div>
 
                 <!-- Contacts -->
-                <div class="footer__contacts" id="contacts">
+                <div class="footer__contacts">
                     <h3 class="footer__contacts-undertitle undertitle">Остались вопросы?</h3>
                     <p class="footer__contacts-text">Всегда на связи
                         <span class="footer__contacts-text contacts__text--bold">Telegram</span>
@@ -298,6 +298,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="/js/header/script.js"></script>
 
 </body>
 
