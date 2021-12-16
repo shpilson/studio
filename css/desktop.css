@@ -59,7 +59,7 @@
 .header__box {
     display: flex;
     flex-direction: row;
-    margin: 190px auto;
+    margin: 160px auto;
 }
 
 .container {
@@ -79,12 +79,9 @@
     position: fixed;
     box-shadow: 0px 0px 10px #ebebeb;
 
-    transition: all .3s ease;
+    transition: all 1s ease;
 }
 
-.header__top.out {
-    transform: translateY(-100%);
-}
 
 .header__logo {
     padding-left: 90px;
@@ -173,13 +170,11 @@
     margin-top: 20px;
 }
 
-.header__content-img {
-    margin-top: 100px;
-}
+.header__content-img {}
 
 .header__form {
     width: 464px;
-    height: 549px;
+    height: 100%;
     background: #F7FAFF;
     border: 2px solid #E5ECF7;
     box-sizing: border-box;
@@ -188,10 +183,11 @@
     margin-left: 75px;
     padding-left: 45px;
     padding-right: 45px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .header__form-title {
-    margin-top: 60px;
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
@@ -263,7 +259,7 @@
 }
 
 .button {
-    background: #0095EF;
+    background: #324D5B;
     border-radius: 50px;
     border-color: transparent;
     width: 376px;
@@ -344,6 +340,7 @@
 
 .about__introduce {
     margin-left: 40px;
+    padding-top: 50px;
 }
 
 .about__introduce-title {

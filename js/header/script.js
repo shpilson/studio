@@ -1,13 +1,11 @@
-const header = document.querySelector('.header__top');
-scrollPrev = 0;
-
-$(window).scroll(function () {
-    var scrolled = $(window).scrollTop();
-
-    if (scrolled > 100 && scrolled > scrollPrev) {
-        header.addClass('out');
+/* Когда пользователь прокручивает вниз, скрыть навигационную панель. Когда пользователь прокручивает вверх, показать навигационную панель */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector(".header__top").style.top = "0px";
     } else {
-        header.removeClass('out');
+        document.querySelector(".header__top").style.top = "-50%";
     }
-    scrollPrev = scrolled;
-});
+    prevScrollpos = currentScrollPos;
+}
