@@ -1,5 +1,5 @@
-var header = $('.header__top'),
-    scrollPrev = 0;
+const header = document.querySelector('.header__top');
+scrollPrev = 0;
 
 $(window).scroll(function () {
     var scrolled = $(window).scrollTop();
