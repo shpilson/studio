@@ -17,6 +17,9 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/favicon.ico">
     <link rel="stylesheet" media="all" href="/css/style.css">
+
+    <link href="css/jquery.jgrowl.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery.arcticmodal.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -78,32 +81,36 @@
 
                     <!-- Contact form -->
                     <div class="header__form">
-                        <h3 class="header__form-title">Узнайте стоимость
-                            <span class="header__form-title--red">за
-                                <span class="header__form-title--bold">20</span> минут</span>
-                        </h3>
+                        <form action="" name="form-1">
+                            <h3 class="header__form-title">Узнайте стоимость
+                                <span class="header__form-title--red">за
+                                    <span class="header__form-title--bold">20</span> минут</span>
+                            </h3>
 
-                        <div class="header__form-input">
-                            <p class="header__form-input-text">Ваш телефон, Telegram или e-mail:</p>
-                            <input class="header__input-form" type="text" name="client-contact" id="client-contact" />
-                        </div>
+                            <div class="header__form-input">
+                                <p class="header__form-input-text">Ваш телефон, Telegram или e-mail:</p>
+                                <input class="header__input-form" type="text" name="client-contact"
+                                    id="client-contact" />
+                            </div>
 
-                        <div class="header__form-input">
-                            <p class="header__form-input-text">Ваши вопросы, комментарии, тех. задание (при наличии):
-                            </p>
-                            <input class="header__input-form--big header__input-form" type="text" name="client-com"
-                                id="client-com" />
-                        </div>
+                            <div class="header__form-input">
+                                <p class="header__form-input-text">Ваши вопросы, комментарии, тех. задание (при
+                                    наличии):
+                                </p>
+                                <input class="header__input-form--big header__input-form" type="text" name="client-com"
+                                    id="client-com" />
+                            </div>
 
-                        <label class="test">
-                            <input class="header__form-checkbox-input" type="checkbox" name="happy" value="yes">
-                            <span class="header__form-checkbox">Я согласен(-на) на обработку данных в соответствии с
-                                <a href="#" class="header__form-checkbox header__form-link">Политикой
-                                    конфиденциальности</a>
-                            </span>
-                        </label>
+                            <label class="test">
+                                <input class="header__form-checkbox-input" type="checkbox" name="happy" value="yes">
+                                <span class="header__form-checkbox">Я согласен(-на) на обработку данных в соответствии с
+                                    <a href="#" class="header__form-checkbox header__form-link">Политикой
+                                        конфиденциальности</a>
+                                </span>
+                            </label>
 
-                        <input class="header__form-btn button" type="button" value="Узнать стоимость">
+                            <input class="feedback header__form-btn button" type="button" value="Узнать стоимость">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -301,6 +308,18 @@
     </div>
 
     <script src="/js/header/script.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="js/jquery.arcticmodal.js"></script>
+    <script type="text/javascript" src="js/feedback.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).on('click', '.modal_btn', function () {
+                $('#small-modal').arcticmodal();
+            });
+        });
+    </script>
 
 </body>
 
