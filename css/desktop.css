@@ -239,7 +239,17 @@
 .header__input-form--big {
     height: 130px;
     margin-bottom: 30px;
-    line-height: 130px;
+    line-height: 20px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #303030;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .header__form-checkbox-input {
