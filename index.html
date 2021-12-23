@@ -17,35 +17,6 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/favicon.ico">
     <link rel="stylesheet" media="all" href="/css/style.css">
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-    <script type="text/javascript">
-        emailjs.init('user_fO3AyiyXbeULVSmOOKzg0')
-    </script>
-
-    <script type="text/javascript">
-        const btn = document.getElementById('button');
-
-        document.getElementById('contact-form')
-            .addEventListener('button', function (event) {
-                event.preventDefault();
-
-                btn.value = 'Sending...';
-
-                const serviceID = 'default_service';
-                const templateID = 'template_qv1kx4k';
-
-                emailjs.sendForm(serviceID, templateID, this)
-                    .then(() => {
-                        btn.value = 'Send Email';
-                        alert('Sent!');
-                    }, (err) => {
-                        btn.value = 'Send Email';
-                        alert(JSON.stringify(err));
-                    });
-            });
-    </script>
 </head>
 
 <body>
@@ -340,6 +311,29 @@
 
     <script type="text/javascript">
         emailjs.init('user_fO3AyiyXbeULVSmOOKzg0')
+    </script>
+
+    <script type="text/javascript">
+        const btn = document.getElementById('button');
+
+        document.getElementById('contact-form')
+            .addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                btn.value = 'Sending...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_qv1kx4k';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Send Email';
+                        alert('Sent!');
+                    }, (err) => {
+                        btn.value = 'Send Email';
+                        alert(JSON.stringify(err));
+                    });
+            });
     </script>
 </body>
 
