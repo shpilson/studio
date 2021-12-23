@@ -63,7 +63,8 @@
 .header__box {
     display: flex;
     flex-direction: row;
-    margin: 160px auto;
+    margin-top: 180px;
+    margin-bottom: 80px;
 }
 
 .container {
