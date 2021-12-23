@@ -328,10 +328,10 @@
 
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
-                        btn.value = 'Send Email';
+                        btn.value = 'Успешно отправлено';
                         alert('Заявка отправлена! Скоро мы свяжемся с Вами');
                     }, (err) => {
-                        btn.value = 'Send Email';
+                        btn.value = 'Успешно отправлено';
                         alert(JSON.stringify(err));
                     });
             });
