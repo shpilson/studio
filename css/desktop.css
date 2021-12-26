@@ -76,7 +76,7 @@
 .header__top {
     display: flex;
     justify-content: space-between;
-    width: 10%;
+    width: 100%;
     padding-bottom: 25px;
     padding-left: 30px;
     background-color: #ffffff;
