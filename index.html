@@ -1,341 +1,469 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kowalenko Studio – профессиональная разработка сайтов</title>
-    <meta name="description" content="Дизайн, вёрстка 
-    и фронтенд разработка. Чистый ручной код, согласно Вашему дизайну">
+    <meta
+      name="description"
+      content="Дизайн, вёрстка 
+    и фронтенд разработка. Чистый ручной код, согласно Вашему дизайну"
+    />
 
-    <meta property="og:title" content="Kowalenko Studio  – профессиональная разработка сайтов" />
+    <meta
+      property="og:title"
+      content="Kowalenko Studio  – профессиональная разработка сайтов"
+    />
     <meta property="og:type" content="Personal web page" />
     <meta property="og:url" content="https://studio.kowalenko.net/" />
     <meta property="og:image" content="/favicon.ico/" />
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/favicon.ico">
-    <link rel="stylesheet" media="all" href="/css/style.css">
-</head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" media="all" href="/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container-top">
-        <!-- Nav-menu + languages -->
-        <div class="header__top">
-
-            <div class="header__logo">
-                <a class="header__logo" href="#top"><img src="/img/logo.svg" alt="Logotype"></a>
-            </div>
-
-            <nav class="header__menu">
-                <ul class="header__menu-list">
-                    <li class="header__menu-list-item">
-                        <a class="header__menu-link" href="/process" target="_blank">Как мы работаем</a>
-                    </li>
-                    <li class="header__menu-list-item">
-                        <a class="header__menu-link" href="#prices">Стоимость</a>
-                    </li>
-                    <li class="header__menu-list-item">
-                        <a class="header__menu-link" href="/portfolio" target="_blank">Портфолио</a>
-                    </li>
-                    <li class="header__menu-list-item">
-                        <a class="header__menu-link" href="#contacts">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="header__languages">
-                <ul class="header__languages-list">
-
-                    <li class="header__languages-list-item">
-                        <label>
-                            <input class="header__languages-link" type="image" src="/img/russian.svg" alt="russian">
-                        </label>
-                    </li>
-
-                    <li class="header__languages-list-item">
-                        <input class="header__languages-link" type="image" src="/img/english.svg" alt="english">
-                    </li>
-                </ul>
-            </div>
-
+      <!-- Nav-menu + languages -->
+      <div class="header__top">
+        <div class="header__logo">
+          <a class="header__logo" href="#top"
+            ><img src="/img/logo.svg" alt="Logotype"
+          /></a>
         </div>
+
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="/process" target="_blank"
+                >Как мы работаем</a
+              >
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#prices">Стоимость</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="/portfolio" target="_blank"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__languages">
+          <ul class="header__languages-list">
+            <li class="header__languages-list-item">
+              <label>
+                <input
+                  class="header__languages-link"
+                  type="image"
+                  src="/img/russian.svg"
+                  alt="russian"
+                />
+              </label>
+            </li>
+
+            <li class="header__languages-list-item">
+              <input
+                class="header__languages-link"
+                type="image"
+                src="/img/english.svg"
+                alt="english"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="wrapper">
-        <!-- SCREEN #1 -->
-        <header class="header" id="header" id="top">
-
-            <div class="container">
-                <div class="header__box">
-                    <!-- Title & banner -->
-                    <div class="header__content">
-                        <h1 class="header__content-title">Дизайн, вёрстка и фронтенд разработка</h1>
-                        <h3 class="header__content-undertitle">Мы создаем молниеносные, красивые веб-сайты
-                            для стартапов, малого бизнеса и предприятий</h3>
-                        <img class="header__content-img" src="/img/web_dev.gif" alt="frontend crew banner">
-                    </div>
-
-                    <!-- Contact form -->
-                    <div class="header__form">
-                        <form id="contact-form">
-                            <h3 class="header__form-title">Узнайте стоимость
-                                <span class="header__form-title--red">за
-                                    <span class="header__form-title--bold">20</span> минут</span>
-                            </h3>
-
-                            <div class="header__form-input">
-                                <p class="header__form-input-text">Ваш телефон, Telegram или e-mail:</p>
-                                <input class="header__input-form" type="text" name="to_name" />
-                            </div>
-
-                            <div class="header__form-input">
-                                <p class="header__form-input-text">Ваши вопросы, комментарии, тех. задание (при
-                                    наличии):
-                                </p>
-                                <textarea class="header__input-form--big header__input-form" name="message" crows="5"
-                                    cols="33"></textarea>
-                            </div>
-
-                            <label class="test">
-                                <input class="header__form-checkbox-input" type="checkbox" name="happy" value="yes">
-                                <span class="header__form-checkbox">Я согласен(-на) на обработку данных в соответствии с
-                                    <a href="#" class="header__form-checkbox header__form-link">Политикой
-                                        конфиденциальности</a>
-                                </span>
-                            </label>
-
-                            <input class="feedback header__form-btn button" type="submit" id="button"
-                                value="Узнать стоимость">
-                        </form>
-                    </div>
-                </div>
+      <!-- SCREEN #1 -->
+      <header class="header" id="header" id="top">
+        <div class="container">
+          <div class="header__box">
+            <!-- Title & banner -->
+            <div class="header__content">
+              <h1 class="header__content-title">
+                Дизайн, вёрстка и фронтенд разработка
+              </h1>
+              <h3 class="header__content-undertitle">
+                Мы создаем молниеносные, красивые веб-сайты для стартапов,
+                малого бизнеса и предприятий
+              </h3>
+              <img
+                class="header__content-img"
+                src="/img/web_dev.gif"
+                alt="frontend crew banner"
+              />
             </div>
-        </header>
 
-        <!-- SCREEN #2 -->
-        <section class="about">
-            <div class="container">
-                <!-- Pluses -->
-                <div class="about__pluses">
-                    <div class="about__plus">
-                        <img class="about__plus-img" src="/img/phone.svg" alt="Support 24/7">
-                        <p class="about__plus-text">Круглосуточная поддержка</p>
-                    </div>
+            <!-- Contact form -->
+            <div class="header__form">
+              <form id="contact-form">
+                <h3 class="header__form-title">
+                  Узнайте стоимость
+                  <span class="header__form-title--red"
+                    >за
+                    <span class="header__form-title--bold">20</span> минут</span
+                  >
+                </h3>
 
-                    <div class="about__plus">
-                        <img class="about__plus-img" src="/img/target.svg" alt="Reached goal">
-                        <p class="about__plus-text">Работа на результат</p>
-                    </div>
-
-                    <div class="about__plus">
-                        <img class="about__plus-img" src="/img/shield.svg" alt="Money under cover">
-                        <p class="about__plus-text">Фиксированная сумма по договору</p>
-                    </div>
+                <div class="header__form-input">
+                  <p class="header__form-input-text">
+                    Ваш телефон, Telegram или e-mail:
+                  </p>
+                  <input
+                    class="header__input-form"
+                    type="text"
+                    name="to_name"
+                  />
                 </div>
 
-                <div class="about__content">
-                    <!-- MacBook -->
-                    <div class="about__macbook">
-                        <div class="about__macbook-img" alt="MacBook">
-
-                        </div>
-                    </div>
-
-                    <!-- Introduce -->
-                    <div class="about__introduce">
-                        <h2 class="about__introduce-title title">Строим сайты с нуля</h2>
-                        <p class="about__introduce-text text">Мы — дизайнеры и фронтенд разработчики, превращаем Ваши
-                            идеи в адаптивные и динамичные html-страницы.</p>
-                        <p class="about__introduce-text text">
-                            <strong>Kowalenko Studio</strong> — качественно выполняем свою
-                            работу и ценим Ваше время.
-                        </p>
-                    </div>
+                <div class="header__form-input">
+                  <p class="header__form-input-text">
+                    Ваши вопросы, комментарии, тех. задание (при наличии):
+                  </p>
+                  <textarea
+                    class="header__input-form--big header__input-form"
+                    name="message"
+                    crows="5"
+                    cols="33"
+                  ></textarea>
                 </div>
+
+                <label class="test">
+                  <input
+                    class="header__form-checkbox-input"
+                    type="checkbox"
+                    name="happy"
+                    value="yes"
+                  />
+                  <span class="header__form-checkbox"
+                    >Я согласен(-на) на обработку данных в соответствии с
+                    <a href="#" class="header__form-checkbox header__form-link"
+                      >Политикой конфиденциальности</a
+                    >
+                  </span>
+                </label>
+
+                <input
+                  class="feedback header__form-btn button"
+                  type="submit"
+                  id="button"
+                  value="Узнать стоимость"
+                />
+              </form>
             </div>
-        </section>
+          </div>
+        </div>
+      </header>
 
-        <!-- SCREEN #3 -->
-        <section class="prices" id="prices">
-            <div class="container">
-
-                <div class="prices__box">
-                    <!-- Prices description -->
-                    <div class="prices__description">
-                        <h2 class="prices__description-title title">Сайт «‎под ключ»</h2>
-                        <p class="prices__description-text text">Каждый проект уникален. Стоимость зависит от множества
-                            факторов и всегда рассчитывается индивидуально.</p>
-                        <p class="prices__description-text text">Мы связываемся с Вами в кратчайшие сроки и рассчитываем
-                            стоимость и время на разработку Вашего проекта.</p>
-                    </div>
-
-                    <!-- Plans & Cards -->
-                    <div class="prices__plans">
-                        <div class="prices__card">
-                            <img class="prices__card-img" src="/img/basic.svg" alt="Cashbox">
-                            <div class="prices__card-plans card-plans--blue">
-                                <p class="plans__card-text text">Обычный заказ</p>
-                            </div>
-                            <p class="prices__card-price">от ₽5 000</p>
-                            <p class="prices__card-desc">В зависимости от сложности</p>
-                            <p class="prices__card-desc">Приступаем к работе в течение 1-3 дней</p>
-                            <a href="#header"><input class="prices__card-btn" type="button"
-                                    value="Заказать разработку"></a>
-                        </div>
-
-                        <div class="prices__card">
-                            <img class="prices__card-img" src="/img/fire.svg" alt="Fire">
-                            <div class="prices__card-plans card-plans--red">
-                                <p class="plans__card-text text--white">Срочный заказ</p>
-                            </div>
-                            <p class="prices__card-price">от ₽15 000</p>
-                            <p class="prices__card-desc">В зависимости от сложности</p>
-                            <p class="prices__card-desc">Приступаем к работе
-                                в день обращения</p>
-                            <a href="#header">
-                                <input class="prices__card-btn" type="button" value="Заказать разработку">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project stages -->
-                <div class="prices__stages">
-                    <div class="prices__stage">
-                        <p class="prices__stage-number--1 prices__stage-number">1</p>
-                        <p class="prices__stage-text text">Знакомство с Вашим проектом</p>
-                    </div>
-
-                    <div class="prices__stage">
-                        <p class="prices__stage-number--2 prices__stage-number">2</p>
-                        <p class="prices__stage-text text">Расчёт сроков и стоимости</p>
-                    </div>
-
-                    <div class="prices__stage">
-                        <p class="prices__stage-number--3 prices__stage-number">3</p>
-                        <p class="prices__stage-text text">Отрисовка и утверждение дизайна</p>
-                    </div>
-
-                    <div class="prices__stage">
-                        <p class="prices__stage-number--4 prices__stage-number">4</p>
-                        <p class="prices__stage-text text">Вёрстка и фронтенд разработка</p>
-                    </div>
-
-                    <div class="prices__stage">
-                        <p class="prices__stage-number--5 prices__stage-number">5</p>
-                        <p class="prices__stage-text text">Запуск сайта</p>
-                    </div>
-                </div>
+      <!-- SCREEN #2 -->
+      <section class="about">
+        <div class="container">
+          <!-- Pluses -->
+          <div class="about__pluses">
+            <div class="about__plus">
+              <img
+                class="about__plus-img"
+                src="/img/phone.svg"
+                alt="Support 24/7"
+              />
+              <p class="about__plus-text">Круглосуточная поддержка</p>
             </div>
-        </section>
 
-        <!-- SCREEN #4 -->
-        <section class="projects">
-            <div class="container projects__section">
-                <h2 class="projects__title title">Работаем над проектами</h2>
+            <div class="about__plus">
+              <img
+                class="about__plus-img"
+                src="/img/target.svg"
+                alt="Reached goal"
+              />
+              <p class="about__plus-text">Работа на результат</p>
+            </div>
 
-                <!-- Projects -->
-                <div class="projects__box">
-                    <img class="projects__box-img" src="/img/vkusvill.svg" alt="VkusVill logo">
-                    <img class="projects__box-img" src="/img/dpd.svg" alt="DPD logo">
-                    <img class="projects__box-img" src="/img/rgs.svg" alt="RosGarantService logo">
+            <div class="about__plus">
+              <img
+                class="about__plus-img"
+                src="/img/shield.svg"
+                alt="Money under cover"
+              />
+              <p class="about__plus-text">Фиксированная сумма по договору</p>
+            </div>
+          </div>
+
+          <div class="about__content">
+            <!-- MacBook -->
+            <div class="about__macbook">
+              <div class="about__macbook-img" alt="MacBook"></div>
+            </div>
+
+            <!-- Introduce -->
+            <div class="about__introduce">
+              <h2 class="about__introduce-title title">Строим сайты с нуля</h2>
+              <p class="about__introduce-text text">
+                Мы — дизайнеры и фронтенд разработчики, превращаем Ваши идеи в
+                адаптивные и динамичные html-страницы.
+              </p>
+              <p class="about__introduce-text text">
+                <strong>Kowalenko Studio</strong> — качественно выполняем свою
+                работу и ценим Ваше время.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN #3 -->
+      <section class="prices" id="prices">
+        <div class="container">
+          <div class="prices__box">
+            <!-- Prices description -->
+            <div class="prices__description">
+              <h2 class="prices__description-title title">Сайт «‎под ключ»</h2>
+              <p class="prices__description-text text">
+                Каждый проект уникален. Стоимость зависит от множества факторов
+                и всегда рассчитывается индивидуально.
+              </p>
+              <p class="prices__description-text text">
+                Мы связываемся с Вами в кратчайшие сроки и рассчитываем
+                стоимость и время на разработку Вашего проекта.
+              </p>
+            </div>
+
+            <!-- Plans & Cards -->
+            <div class="prices__plans">
+              <div class="prices__card">
+                <img
+                  class="prices__card-img"
+                  src="/img/basic.svg"
+                  alt="Cashbox"
+                />
+                <div class="prices__card-plans card-plans--blue">
+                  <p class="plans__card-text text">Обычный заказ</p>
                 </div>
+                <p class="prices__card-price">от ₽5 000</p>
+                <p class="prices__card-desc">В зависимости от сложности</p>
+                <p class="prices__card-desc">
+                  Приступаем к работе в течение 1-3 дней
+                </p>
+                <a href="#header"
+                  ><input
+                    class="prices__card-btn"
+                    type="button"
+                    value="Заказать разработку"
+                /></a>
+              </div>
 
-                <!-- Review -->
-                <div class="projects__review-box">
-                    <p class="projects__review-text text">Хочу выразить благодарность команде за оперативное выполнение
-                        “горящего” лендинга и разработку сайта сети автосалонов. Качество выполненной работы на высоком
-                        уровне. Намерен продолжать сотрудничество с командой в будущих проектах.
-                    </p>
-
-                    <div class="projects__review-user">
-                        <img class="projects__review-user-img" src="/img/user.svg" alt="User avatar">
-                        <div class="projects__review-user-info">
-                            <p class="projects__review-user-name">Максим Елисеев</p>
-                            <p class="projects__review-user-job">Директор сети автосалонов в Санкт-Петербурге</p>
-                            <a class="projects__review-user-www" href="#">www.rosgarantservice.ru</a>
-                        </div>
-                    </div>
+              <div class="prices__card">
+                <img class="prices__card-img" src="/img/fire.svg" alt="Fire" />
+                <div class="prices__card-plans card-plans--red">
+                  <p class="plans__card-text text--white">Срочный заказ</p>
                 </div>
-                <a class="projects__review-btn" href="#header">
-                    <input class="projects__review-btn button" type="button" value="Заказать разработку проекта">
+                <p class="prices__card-price">от ₽15 000</p>
+                <p class="prices__card-desc">В зависимости от сложности</p>
+                <p class="prices__card-desc">
+                  Приступаем к работе в день обращения
+                </p>
+                <a href="#header">
+                  <input
+                    class="prices__card-btn"
+                    type="button"
+                    value="Заказать разработку"
+                  />
                 </a>
+              </div>
             </div>
-        </section>
-
-        <!-- SCREEN #5 -->
-        <footer class="footer" id="contacts">
-            <div class="container footer__section">
-
-                <!-- Gift for new clients -->
-                <div class="footer__gift">
-                    <h3 class="footer__gift-title">
-                        Хотите домен <span class="footer__gift-title text--fz40">.ru</span> на год и
-                        <span class="footer__gift-title text--fz40">3 месяца хостинга</span> в подарок?
-                    </h3>
-
-                    <p class="footer__gift-text">Отправьте заявку и получите подарок!</p>
-                    <a class="footer__gift-btn" href="#header">
-                        <input class="footer__gift-btn button" type="button" value="Получить подарок">
-                    </a>
-                </div>
-
-                <!-- Contacts -->
-                <div class="footer__contacts">
-                    <h3 class="footer__contacts-undertitle undertitle">Остались вопросы?</h3>
-                    <p class="footer__contacts-text">Всегда на связи
-                        <span class="footer__contacts-text contacts__text--bold">Telegram</span>
-                    </p>
-                    <p class="footer__contacts-text contacts__text--bold">+7 999 965-89-09 (@shpilson)</p>
-                    <p class="footer__contacts-text contacts__text--bold">kowalenko.gg@gmail.com</p>
-                </div>
+          </div>
+          <!-- Project stages -->
+          <div class="prices__stages">
+            <div class="prices__stage">
+              <p class="prices__stage-number--1 prices__stage-number">1</p>
+              <p class="prices__stage-text text">Знакомство с Вашим проектом</p>
             </div>
 
-
-            <div class="container">
-                <!-- Copyrights -->
-                <div class="footer__copyrights">
-                    <p class="footer__copyright-studio">
-                        © 2021 <strong>Kowalenko Studio</strong> — профессиональная разработка сайтов.
-                    </p>
-                    <a class="footer__privacy" href="#">Политика конфиденциальности</a>
-                </div>
+            <div class="prices__stage">
+              <p class="prices__stage-number--2 prices__stage-number">2</p>
+              <p class="prices__stage-text text">Расчёт сроков и стоимости</p>
             </div>
-        </footer>
+
+            <div class="prices__stage">
+              <p class="prices__stage-number--3 prices__stage-number">3</p>
+              <p class="prices__stage-text text">
+                Отрисовка и утверждение дизайна
+              </p>
+            </div>
+
+            <div class="prices__stage">
+              <p class="prices__stage-number--4 prices__stage-number">4</p>
+              <p class="prices__stage-text text">
+                Вёрстка и фронтенд разработка
+              </p>
+            </div>
+
+            <div class="prices__stage">
+              <p class="prices__stage-number--5 prices__stage-number">5</p>
+              <p class="prices__stage-text text">Запуск сайта</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN #4 -->
+      <section class="projects">
+        <div class="container projects__section">
+          <h2 class="projects__title title">Работаем над проектами</h2>
+
+          <!-- Projects -->
+          <div class="projects__box">
+            <img
+              class="projects__box-img"
+              src="/img/vkusvill.svg"
+              alt="VkusVill logo"
+            />
+            <img class="projects__box-img" src="/img/dpd.svg" alt="DPD logo" />
+            <img
+              class="projects__box-img"
+              src="/img/rgs.svg"
+              alt="RosGarantService logo"
+            />
+          </div>
+
+          <!-- Review -->
+          <div class="projects__review-box">
+            <p class="projects__review-text text">
+              Хочу выразить благодарность команде за оперативное выполнение
+              “горящего” лендинга и разработку сайта сети автосалонов. Качество
+              выполненной работы на высоком уровне. Намерен продолжать
+              сотрудничество с командой в будущих проектах.
+            </p>
+
+            <div class="projects__review-user">
+              <img
+                class="projects__review-user-img"
+                src="/img/user.svg"
+                alt="User avatar"
+              />
+              <div class="projects__review-user-info">
+                <p class="projects__review-user-name">Максим Елисеев</p>
+                <p class="projects__review-user-job">
+                  Директор сети автосалонов в Санкт-Петербурге
+                </p>
+                <a class="projects__review-user-www" href="#"
+                  >www.rosgarantservice.ru</a
+                >
+              </div>
+            </div>
+          </div>
+          <a class="projects__review-btn" href="#header">
+            <input
+              class="projects__review-btn button"
+              type="button"
+              value="Заказать разработку проекта"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- SCREEN #5 -->
+      <footer class="footer" id="contacts">
+        <div class="container footer__section">
+          <!-- Gift for new clients -->
+          <div class="footer__gift">
+            <h3 class="footer__gift-title">
+              Хотите домен
+              <span class="footer__gift-title text--fz40">.ru</span> на год и
+              <span class="footer__gift-title text--fz40"
+                >3 месяца хостинга</span
+              >
+              в подарок?
+            </h3>
+
+            <p class="footer__gift-text">
+              Отправьте заявку и получите подарок!
+            </p>
+            <a class="footer__gift-btn" href="#header">
+              <input
+                class="footer__gift-btn button"
+                type="button"
+                value="Получить подарок"
+              />
+            </a>
+          </div>
+
+          <!-- Contacts -->
+          <div class="footer__contacts">
+            <h3 class="footer__contacts-undertitle undertitle">
+              Остались вопросы?
+            </h3>
+            <p class="footer__contacts-text">
+              Всегда на связи
+              <span class="footer__contacts-text contacts__text--bold"
+                >Telegram</span
+              >
+            </p>
+            <p class="footer__contacts-text contacts__text--bold">
+              +7 999 965-89-09 (@shpilson)
+            </p>
+            <p class="footer__contacts-text contacts__text--bold">
+              kowalenko.gg@gmail.com
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <!-- Copyrights -->
+          <div class="footer__copyrights">
+            <p class="footer__copyright-studio">
+              © 2021 <strong>Kowalenko Studio</strong> — профессиональная
+              разработка сайтов.
+            </p>
+            <a class="footer__privacy" href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="/js/header/script.js"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
 
     <script type="text/javascript">
-        emailjs.init('user_fO3AyiyXbeULVSmOOKzg0')
+      emailjs.init("user_fO3AyiyXbeULVSmOOKzg0");
     </script>
 
     <script type="text/javascript">
-        const btn = document.getElementById('button');
+      const btn = document.getElementById("button");
 
-        document.getElementById('contact-form')
-            .addEventListener('submit', function (event) {
-                event.preventDefault();
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-                btn.value = 'Отправка...';
+          btn.value = "Отправка...";
 
-                const serviceID = 'default_service';
-                const templateID = 'template_qv1kx4k';
+          const serviceID = "default_service";
+          const templateID = "template_qv1kx4k";
 
-                emailjs.sendForm(serviceID, templateID, this)
-                    .then(() => {
-                        btn.value = 'Успешно отправлено';
-                        alert('Заявка отправлена! Скоро мы свяжемся с Вами');
-                    }, (err) => {
-                        btn.value = 'Успешно отправлено';
-                        alert(JSON.stringify(err));
-                    });
-            });
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = "Успешно отправлено";
+              alert("Заявка отправлена! Скоро мы свяжемся с Вами");
+            },
+            (err) => {
+              btn.value = "Успешно отправлено";
+              alert(JSON.stringify(err));
+            }
+          );
+        });
     </script>
-</body>
-
+  </body>
 </html>

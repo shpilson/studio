@@ -1,0 +1,21 @@
+@import "/css/reset.css";
+@import "/css/header.css";
+@import "/css/footer.css";
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0 15px;
+}

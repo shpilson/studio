@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kowalenko Studio – профессиональная разработка сайтов</title>
+    <meta
+      name="description"
+      content="Дизайн, вёрстка 
+    и фронтенд разработка. Чистый ручной код, согласно Вашему дизайну"
+    />
+
+    <meta
+      property="og:title"
+      content="Kowalenko Studio  – профессиональная разработка сайтов"
+    />
+    <meta property="og:type" content="Personal web page" />
+    <meta property="og:url" content="https://studio.kowalenko.net/" />
+    <meta property="og:image" content="/favicon.ico/" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" media="all" href="/css/portfolio.css" />
+  </head>
+
+  <body>
+   <div class="wrapper">
+<header class="header">
+  <div class="container">
+    <div class="header__top">
+      <div class="header__logo">
+        <a class="header__logo" href="#top">
+          <img src="/img/logo.svg" alt="Logotype" />
+        </a>
+      </div>
+
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" href="/process" target="_blank"
+              >Главная</a
+            >
+          </li>
+
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" href="/process" target="_blank"
+              >Как мы работаем</a
+            >
+          </li>
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" href="#prices">Стоимость</a>
+          </li>
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" href="/portfolio" target="_blank"
+              >Портфолио</a
+            >
+          </li>
+          <li class="header__menu-list-item">
+            <a class="header__menu-link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__languages">
+        <ul class="header__languages-list">
+          <li class="header__languages-list-item">
+            <input
+              class="header__languages-link"
+              type="image"
+              src="/img/russian.svg"
+              alt="russian"
+            />
+          </li>
+
+          <li class="header__languages-list-item">
+            <input
+              class="header__languages-link"
+              type="image"
+              src="/img/english.svg"
+              alt="english"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main class="main">
+        <div class="container"></div>
+      </main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__main"></div>
+  </div>
+</footer>
+
+    <script src="/js/header/script.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("user_fO3AyiyXbeULVSmOOKzg0");
+    </script>
+
+    <script type="text/javascript">
+      const btn = document.getElementById("button");
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          btn.value = "Отправка...";
+
+          const serviceID = "default_service";
+          const templateID = "template_qv1kx4k";
+
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = "Успешно отправлено";
+              alert("Заявка отправлена! Скоро мы свяжемся с Вами");
+            },
+            (err) => {
+              btn.value = "Успешно отправлено";
+              alert(JSON.stringify(err));
+            }
+          );
+        });
+    </script>
+  </body>
+</html>
