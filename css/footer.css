@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Source Sans Pro"), url("/fonts/SourceSansPro-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro"), url("/fonts/SourceSansPro-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Source Sans Pro"), url("/fonts/SourceSansPro-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local("Source Sans Pro"), url("/fonts/SourceSansPro-Black.ttf") format("ttf");
+}
+.footer {
+  padding: 1.875rem 0;
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__main span {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: #000000;
+}
+
+.footer__text-bold {
+  font-weight: 600;
+}
