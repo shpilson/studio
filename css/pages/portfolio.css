@@ -365,7 +365,7 @@
 
 .portfolio__more-block span::after {
   content: " ";
-  background-image: url(../img/loadMore.svg);
+  background-image: url("../../img/loadMore.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
