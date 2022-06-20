@@ -75,7 +75,7 @@
   font-size: 1.125rem;
   line-height: 1.4375rem;
   color: #324d5b;
-  padding-bottom: 5rem;
+  padding-bottom: 1.875rem;
   text-align: center;
 }
 
@@ -86,12 +86,16 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 0.9375rem;
-  padding-bottom: 3.125rem;
+  padding: 3.125rem 0;
 }
 @media (max-width: 699px) {
   .portfolio__content {
     gap: 2.1875rem;
   }
+}
+
+.js-block-hidden {
+  display: none;
 }
 
 .portfolio__content-back {
